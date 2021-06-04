@@ -1,11 +1,16 @@
 {
-	"name": "nomad-typescript",
+	"name": "typescript-study-typechain",
 	"version": "1.0.0",
 	"description": "Learning Typescript by making a Blockchain with it",
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"start": "node index.js",
-		"prestart": "tsc"
+		"start": "tsc-watch --onSuccess \"node dist/index.js\" "
+	},
+	"devDependencies": {
+		"tsc-watch": "^4.4.0"
+	},
+	"dependencies": {
+		"typescript": "^4.3.2"
 	}
 }
