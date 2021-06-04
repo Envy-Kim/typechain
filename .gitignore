@@ -1,0 +1,6 @@
+.idea/.gitignore
+.idea/modules.xml
+.idea/nomad-typescript.iml
+yarn-error.log
+.idea/vcs.xml
+.vscode/settings.json
